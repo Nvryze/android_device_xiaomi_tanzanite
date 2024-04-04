@@ -92,6 +92,7 @@ ro.vendor.sensors.xiaomi.udfps=true
 
 # FM
 ro.vendor.fm.platform=mt6631_6635
+persist.vendor.connsys.fm_chipid=mt6631_6635
 
 # FUSE
 persist.sys.fuse.passthrough.enable=true
