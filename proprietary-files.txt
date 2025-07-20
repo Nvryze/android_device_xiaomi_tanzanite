@@ -1326,6 +1326,15 @@ vendor/lib64/libdlbdsservice.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so
 
+# EngineerMode
+system_ext/app/EngineerMode/EngineerMode.apk
+system_ext/lib64/libaudiotoolkit.so
+system_ext/lib64/libem_aoltest_jni.so
+system_ext/lib64/libem_audio_jni.so
+system_ext/lib64/libem_bleoffload_jni.so
+system_ext/lib64/libem_support_jni.so
+system_ext/lib64/libem_wifi_jni.so
+
 # Fingerprint
 vendor/app/JVFactoryTest_O7/JVFactoryTest_O7.apk
 vendor/app/goodix_sz_miui/goodix_sz_miui.apk
