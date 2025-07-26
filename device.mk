@@ -19,6 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/userspace_reboot.mk)
 # Keys
 $(call inherit-product-if-exists, vendor/private/keys/keys.mk)
 
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # AB OTA Configuration
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS := \
