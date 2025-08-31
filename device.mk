@@ -22,6 +22,10 @@ $(call inherit-product-if-exists, vendor/private/keys/keys.mk)
 # ViPER4AndroidFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
+# Bootanimation
+TARGET_SCREEN_HEIGHT := 1080
+TARGET_SCREEN_WIDTH := 2400
+
 # AB OTA Configuration
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS := \
