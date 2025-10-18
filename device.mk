@@ -127,6 +127,9 @@ PRODUCT_PACKAGES += \
     android.software.vulkan.deqp.level-2021-03-01.prebuilt.xml \
     android.software.opengles.deqp.level-2021-03-01.prebuilt.xml
 
+PRODUCT_PACKAGES += \
+    MinRefreshRateCtrl
+
 # DRM (Clearkey)
 PRODUCT_PACKAGES += \
     com.android.hardware.drm.clearkey
