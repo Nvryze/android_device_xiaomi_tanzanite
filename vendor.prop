@@ -28,6 +28,10 @@ ro.vendor.mtk_audio_ape_support=1
 ro.vendor.mtk_audio_tuning_tool_ver=V1
 ro.vendor.mtk_hifiaudio_support=1
 
+# Audio Volume
+ro.config.vc_call_vol_default=4
+ro.config.vc_call_vol_steps=8
+
 # Bluetooth
 bluetooth.device_id.vendor_id=0x0046
 bluetooth.device.default_name=Redmi Note 14
