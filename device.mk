@@ -22,6 +22,11 @@ $(call inherit-product-if-exists, vendor/private/keys/keys.mk)
 # ViPER4AndroidFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
+# Dolby
+$(call inherit-product-if-exists, hardware/dolby/dolby.mk)
+PRODUCT_PACKAGES += \
+    LunarisDolby
+
 # Bootanimation
 TARGET_SCREEN_HEIGHT := 1080
 TARGET_SCREEN_WIDTH := 2400
@@ -100,8 +105,7 @@ PRODUCT_PACKAGES += \
     libdynproc
 
 PRODUCT_PACKAGES += \
-    MtkInCallService \
-    XiaomiDolby
+    MtkInCallService
 
 # Audio Configuration
 PRODUCT_COPY_FILES += \
