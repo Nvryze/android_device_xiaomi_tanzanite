@@ -98,7 +98,6 @@ persist.sys.fuse.passthrough.enable=true
 # Graphics
 debug.graphics.game_default_frame_rate.disabled=true
 graphics.gpu.profiler.support=true
-debug.renderengine.backend=skiavkthreaded
 ro.hardware.egl=mali
 ro.hardware.gralloc=common
 ro.hardware.hwcomposer=mtk_common
