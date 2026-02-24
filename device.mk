@@ -24,8 +24,6 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Dolby
 $(call inherit-product-if-exists, hardware/dolby/dolby.mk)
-PRODUCT_PACKAGES += \
-    LunarisDolby
 
 # Bootanimation
 TARGET_SCREEN_HEIGHT := 1080
