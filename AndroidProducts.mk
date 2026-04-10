@@ -5,4 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tanzanite.mk
+    $(LOCAL_DIR)/navy_tanzanite.mk
+
+COMMON_LUNCH_CHOICES := \
+    navy_tanzanite-userdebug \
+    navy_tanzanite-user
